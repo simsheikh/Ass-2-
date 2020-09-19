@@ -1,0 +1,88 @@
+
+a{
+  text-decoration: none ;
+}
+.menu-bar{
+text-align: center;
+background:skyblue;
+height:70px;
+line-height:70px;
+ }
+ .menu-bar ul li{
+ list-style: none;
+display: inline-block;
+}
+.menu-bar ul li a{
+  color:white;
+  font-size:22px;
+  font-weight: 600;
+  margin:0px 10px;
+  transition: 0.5s;
+}
+.menu-bar ul li a:hover{
+  color:red;
+  font-size: 20px;
+  }
+
+/* banner secton css here */
+
+.banner{
+  width:100%;
+background-image:url(banner.jpg);
+background-size: cover;
+background-repeat:no repeat;
+background-position:center;
+height: 100vh;
+}
+.banner h1{
+
+  font-size: 52px;
+  text-align: center;
+  color: black;
+  padding-top:200;
+  }
+
+
+.social-media{
+  text-align: center;
+  margin-top:center;
+  margin-top: 80px;
+  }
+
+  .social-media ul li{
+    list-style: none;
+    display:inline-block;
+}
+
+
+.social-media ul li a i{
+  font-size: 22px;
+  height:60px ;
+  width:60px;
+  background:skyblue;
+border-radius: 100%;
+line-height:60px;
+text-align:center;
+line-height:60px;
+Color:white;
+margin: 0 10px;
+
+}
+
+.social-media ul li a i:hover{
+  background-color: red;
+  transition: 0.5s;
+  transform: scale(1.2)
+}
+.rightbox{
+
+
+}
+
+.banner h2{
+
+  font-size: 52px;
+  text-align: center;
+  color: black;
+  padding-top:200;
+  }
